@@ -1,12 +1,21 @@
-# Compiler files
-cache/
+# Build artifacts
 out/
+cache/
 
-# Ignores development broadcast logs
+# Script broadcast results
 broadcast/
 
-# Docs
-docs/
+# Forge snapshots
+snapshots/
+
+# Coverage
+coverage/
+lcov.info
+
+# Forge debug
+debug/
 
 # Dotenv file
 .env
+.env.*
+!.env.example
